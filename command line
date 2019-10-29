@@ -9,7 +9,7 @@ brew install postgres
 ##Open postgres
 brew services start postgresql
 
-##I used the localhost as my database and connected it to datagrip
+##I used the localhost as my database and connected it to datagrip for this case-study
 
 ##If I were to create a new database to use I would have use the following code:
 psql postgres -U <my_user_name>

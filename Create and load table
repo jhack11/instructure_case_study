@@ -129,4 +129,4 @@ COPY postgres.public.my_test_table("Country Name",
     "2017",
     "Extra"
 )
-FROM '/Users/Amers/Downloads/GFDD_CSV/GFDDData.csv' DELIMITER ',' CSV HEADER;
+FROM '/Users/<my_user_name>/Downloads/GFDD_CSV/GFDDData.csv' DELIMITER ',' CSV HEADER;

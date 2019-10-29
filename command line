@@ -1,0 +1,19 @@
+##The commands used in terminal to download postgres and create a new database
+
+##Intall Homebrew
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+##Install postgres
+brew install postgres
+
+##Open postgres
+brew services start postgresql
+
+##I used the localhost as my database and connected it to datagrip
+
+##If I were to create a new database to use I would have use the following code:
+psql postgres -U <my_user_name>
+
+postgres=> CREATE DATABASE <new_database_name>;
+
+postgres=> GRANT ALL PRIVILEGES ON DATABASE super_awesome_application TO <my_user_name>;
